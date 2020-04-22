@@ -32,10 +32,11 @@ reportRl目录说明
 远程引用扩展库
 -------------------------------------------------------------------------------------------------
 在aardio引用远程扩展库reportRl的示例：  
-```_IMPORTURL["reportRl"] = "https://github.com/drunkenOstrich/reportRl/releases/download/v1.0/reportRl.tar.lzma"
+```
+_IMPORTURL["reportRl"] = "https://github.com/drunkenOstrich/reportRl/releases/download/v1.0/reportRl.tar.lzma"
 import reportRl
 ```
-在需要使用reportRl库的工程中，包含以上两句代码即可自动下载本扩展库。
+在需要使用reportRl库的工程中，包含以上两句代码即可自动下载本扩展库。  
 
 
 免注册发布工程
