@@ -1,31 +1,41 @@
+reportRl是个啥
+-------------------------------------------------------------------------------------------------
+reportRl是一个aardio的库。  
+包含了reportRl库源码，以及使用此库调用Grid++Report锐浪报表组件的例程。
 目录说明
 -------------------------------------------------------------------------------------------------
 reportRl目录说明  
-├─aardio　　　　　　　aardio例程文件夹  
+├─aardio　　　　　　　**aardio例程**文件夹  
 │  ├─02.Normal　　　 Grid++Report 各种格式报表演示(看这个就对了)  
 ├─Data　　　　　　　　Grid++Report 自带的数据目录  
 ├─img  
 ├─lib  
-│  └─reportRl　　　　reportRl库，拷贝到aardio根目录下lib文件夹里(重要,重要,重要)  
+│  └─reportRl　　　　**reportRl库源码**，已制作成[远程扩展库v1.0](https://github.com/drunkenOstrich/reportRl/releases/tag/v1.0)  
 └─Reports　　　　　　Grid++Report 自带的报表模板目录  
 
 食用方法
 -------------------------------------------------------------------------------------------------
-1，在电脑上安装[aardio桌面快速开发编程工具](http://www.aardio.com)；
+1，在电脑上安装[aardio桌面快速开发编程工具](http://www.aardio.com)；  
+2，下载reportRl仓库；  
+3，(此步骤可省略) 把reportRl\lib\目录里的reportRl文件夹(**reportRl库源码**) 拷贝(复制-粘贴)到aardio开发工具**根目录**的/lib/ 目录下；  
 
-2，下载reportRl库；
-
-4，把`reportRl\lib\`目录里的reportRl文件夹 拷贝(复制-粘贴)到aardio开发工具**根目录**的`/lib/` 目录下；
-
-5，打开`reportRl\aardio\02.Normal\`文件夹观看示例工程。
+4，打开`reportRl仓库\aardio\02.Normal\`文件夹观看示例工程。  
 
 
+组件对象的智能提示并不全，有用到的才会去写一下，还是要以锐浪报表的帮助文档为主要参考依据。  
 
-组件对象的智能提示并不全，有用到的才会去写一下，还是要以锐浪报表的帮助文档为主要参考依据。
+锐浪的帮助文档在`reportRl\lib\reportRl\.dll`里  
 
-锐浪的帮助文档在`reportRl\lib\reportRl\.dll`里
+（注：该例程用于练习在aardio中调用Com组件，例程中有什么不对的地方欢迎大家指正交流。）  
 
-（注：该例程用于练习在aardio中调用Com组件，例程中有什么不对的地方欢迎大家指正交流。）
+远程引用扩展库
+-------------------------------------------------------------------------------------------------
+在aardio引用远程扩展库reportRl的示例：  
+```_IMPORTURL["reportRl"] = "https://github.com/drunkenOstrich/reportRl/releases/download/v1.0/reportRl.tar.lzma"
+import reportRl
+```
+在需要使用reportRl库的工程中，包含以上两句代码即可自动下载本扩展库。
+
 
 免注册发布工程
 -------------------------------------------------------------------------------------------------
@@ -39,4 +49,4 @@ aardio编程交流QQ群：70517368(非aardio官方群)
 
 截个图
 -------------------------------------------------------------------------------------------------
-![Normal](https://gitee.com/daheian/reportRl/raw/master/img/img.png)
+![Normal](/img/img.png)

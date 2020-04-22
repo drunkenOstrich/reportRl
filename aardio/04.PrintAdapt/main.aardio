@@ -1,4 +1,5 @@
 import win.ui;
+_IMPORTURL["reportRl"] = "https://github.com/drunkenOstrich/reportRl/releases/download/v1.0/reportRl.tar.lzma"
 import reportRl;
 import reportRl.path;
 /*DSG{{*/
@@ -19,9 +20,6 @@ radioToNewPageRFCEx={cls="radiobutton";text="超过输出范围列内容另起�
 radioWrap={cls="radiobutton";text="超过输出范围列内容绕行输出";left=17;top=66;right=419;bottom=86;z=7}
 )
 /*}}*/
-
-
-
 
 //定义文本常量
 _DiscardMemo = "按列设计宽度依次输出，当列的输出位置超出了页面的输出区域，超出范围的列将不会输出。";
