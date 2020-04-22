@@ -1,0 +1,7 @@
+﻿<xml>
+<row><ID>69</ID><Nid>E0B1E3DA-810B-4948-9A68-1E727C91D961</Nid><Pid>28A394F9-E592-4C6B-BEE1-B0F658840B1C</Pid><ZY>撒旦发射点发</ZY><kjkm>预付帐款</kjkm><ejkm>公司</ejkm><jfje>15000</jfje><FYshipmentno> </FYshipmentno><kjbh>会计编号</kjbh><jzph> </jzph><whosename>admin</whosename></row>
+<row><ID>69</ID><Nid>E0B1E3DA-810B-4948-9A68-1E727C91D961</Nid><Pid>28A394F9-E592-4C6B-BEE1-B0F658840B1C</Pid><ZY>撒旦发射点发</ZY><kjkm>贷方帐款</kjkm><ejkm>公司</ejkm><dfje>15000</dfje><FYshipmentno> </FYshipmentno><kjbh>会计编号</kjbh><jzph> </jzph><whosename>admin</whosename></row>
+<row><ID>76</ID><Nid>4C878940-F961-41B0-92D0-8AFEACBF03A8</Nid><Pid>E260A316-DD16-4DA4-B16C-4D7AA3E6EE21</Pid><ZY>发生大幅度</ZY><kjkm>现金</kjkm><ejkm>1212撒旦法</ejkm><jfje>5000</jfje><FYshipmentno> </FYshipmentno><kjbh>11011</kjbh><jzph> </jzph><whosename>admin</whosename></row>
+<row><ID>70</ID><Nid>66B2C339-D89F-43F3-826A-BEE87D3BA69E</Nid><Pid>28A394F9-E592-4C6B-BEE1-B0F658840B1C</Pid><kjkm>利润分配</kjkm><ejkm>公司1</ejkm><jfje>420</jfje><FYshipmentno> </FYshipmentno><kjbh>会计编号</kjbh><jzph> </jzph><whosename>admin</whosename></row>
+<row><ID>71</ID><Nid>5BF56239-7DDE-4BCC-843C-FBFE7C1DCAE2</Nid><Pid>330F9EFB-4C10-4D0F-B633-88F5EB2E2043</Pid><ZY>收入啦</ZY><kjkm>自营出口销售收入</kjkm><ejkm>自营收入</ejkm><jfje>65000</jfje><dfje>0</dfje><FYshipmentno>11AH003</FYshipmentno><kjbh>PZ11013</kjbh><jzph> </jzph><whosename>admin</whosename></row>
+</xml> 

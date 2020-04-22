@@ -1,0 +1,16 @@
+﻿<report>
+<xml>
+<row><Brief>销售收款</Brief><SubName>应收款</SubName><Amt>50000</Amt></row>
+<row><Brief>销售收款</Brief><SubName>预收款</SubName><Amt>-30000</Amt></row>
+<row><Brief>销售收款</Brief><SubName>现金</SubName><Amt>-20000</Amt>Amt</row>
+</xml> 
+<_grparam>
+<企业名称>锐浪软件测试公司</企业名称>
+<凭证日期>2007-7-8</凭证日期>
+<凭证字号>记-88</凭证字号>
+<登账人>张三</登账人>
+<签字人>李四</签字人>
+<审核人>王五</审核人>
+<制单人>赵六</制单人>
+</_grparam>
+</report>

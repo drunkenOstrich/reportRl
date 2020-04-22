@@ -1,0 +1,67 @@
+﻿{
+	"Version":"6.6.6.0",
+	"Title":"Grid++Report",
+	"Author":"锐浪报表软件",
+	"Description":"页分组累计并按类分组：\r\n1、用参数记录累计值\r\n2、在普通分组输出前将累计值归零\r\n3、在页分组结束时，累加值\r\n",
+	"Font":{
+		"Name":"宋体",
+		"Size":105000,
+		"Weight":400,
+		"Charset":134
+	},
+	"Printer":{
+	},
+	"Parameter":[
+		{
+			"Name":"MyText",
+			"Value":"这段文字比较长，坼分到三个部件框显示"
+		}
+	],
+	"ReportHeader":[
+		{
+			"Name":"ReportHeader1",
+			"Height":8.59896,
+			"Control":[
+				{
+					"Type":"StaticBox",
+					"Name":"StaticBox1",
+					"Left":2.59292,
+					"Top":0.608542,
+					"Width":2.80458,
+					"Height":0.79375,
+					"CustomDraw":true,
+					"CustomDrawScript":"var len,\r\n    Graphics = Report.Graphics,\r\n    width = Graphics.Width - Sender.PaddingLeft - Sender.PaddingRight,\r\n    height = Graphics.Height,\r\n    text = Report.ParameterByName(\"MyText\").AsString,\r\n    subText;\r\n\r\nlen = Graphics.CalcTextOutLen(width, height, text, false);\r\nsubText = text.substr(0, len);\r\nGraphics.DrawText(subText, Sender.PaddingLeft, 0, width, height, 33, false);",
+					"Border":{
+						"Styles":"[DrawLeft|DrawTop|DrawRight|DrawBottom]"
+					}
+				},
+				{
+					"Type":"StaticBox",
+					"Name":"StaticBox2",
+					"Left":2.59292,
+					"Top":1.5875,
+					"Width":2.80458,
+					"Height":0.820208,
+					"CustomDraw":true,
+					"CustomDrawScript":"var len,\r\n    Graphics = Report.Graphics,\r\n    width = Graphics.Width - Sender.PaddingLeft - Sender.PaddingRight,\r\n    height = Graphics.Height,\r\n    text = Report.ParameterByName(\"MyText\").AsString,\r\n    subText;\r\n\r\n//计算出第一个部件框显示的文字长度\r\nlen = Graphics.CalcTextOutLen(width, height, text, false);\r\nsubText = text.substr(len);\r\n\r\nlen = Graphics.CalcTextOutLen(width, height, subText, false);\r\nsubText = subText.substr(0, len);\r\n\r\nGraphics.DrawText(subText, Sender.PaddingLeft, 0, width, height, 33, false);",
+					"Border":{
+						"Styles":"[DrawLeft|DrawTop|DrawRight|DrawBottom]"
+					}
+				},
+				{
+					"Type":"StaticBox",
+					"Name":"StaticBox3",
+					"Left":2.59292,
+					"Top":2.59292,
+					"Width":2.80458,
+					"Height":0.820208,
+					"CustomDraw":true,
+					"CustomDrawScript":"var len,\r\n    Graphics = Report.Graphics,\r\n    width = Graphics.Width - Sender.PaddingLeft - Sender.PaddingRight,\r\n    height = Graphics.Height,\r\n    text = Report.ParameterByName(\"MyText\").AsString,\r\n    subText;\r\n\r\n//计算出第一个部件框显示的文字长度\r\nlen = Graphics.CalcTextOutLen(width, height, text, false);\r\nsubText = text.substr(len);\r\n\r\n//计算出第二个部件框显示的文字长度\r\nlen = Graphics.CalcTextOutLen(width, height, subText, false);\r\nsubText = subText.substr(len);\r\n\r\nGraphics.DrawText(subText, Sender.PaddingLeft, 0, width, height, 33, false);",
+					"Border":{
+						"Styles":"[DrawLeft|DrawTop|DrawRight|DrawBottom]"
+					}
+				}
+			]
+		}
+	]
+}

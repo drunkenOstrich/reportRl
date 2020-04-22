@@ -1,0 +1,44 @@
+﻿{
+	"Version":"6.6.6.0",
+	"Title":"你的报表标题",
+	"Author":"锐浪报表软件",
+	"Description":"演示一个最基本的列表报表。",
+	"PrintAsDesignPaper":false,
+	"Font":{
+		"Name":"宋体",
+		"Size":105000,
+		"Weight":400,
+		"Charset":134
+	},
+	"Printer":{
+	},
+	"Parameter":[
+		{
+			"Name":"a",
+			"Value":"RTF文本框可以在运行时将文本中的动态数据域用实际的数据进行替换。数据域用“[#”与“ #]”包围起来，包围的内容就是关联数据对象的名称，如字段的名称。"
+		},
+		{
+			"Name":"b",
+			"Value":"RTF文本框用来显示RTF格式文本的部件框，RTF格式文本数据可以直接保存在报表模板文件中，也可以在运行时从磁盘文件、二进制字段和内存中载入。通过设定RTF文本框的“RTF文本”属性来加载部件框的显示内容，也可以通过“数据字段”属性关联一个字段，报表在运行时会从指定字段获取数据。\r\n\r\n"
+		}
+	],
+	"ReportHeader":[
+		{
+			"Name":"ReportHeader1",
+			"CanGrow":true,
+			"Height":3.20146,
+			"Control":[
+				{
+					"Type":"RichTextBox",
+					"Name":"RichTextBox1",
+					"Left":0.211667,
+					"Top":0.396875,
+					"Width":15.3988,
+					"Height":2.40771,
+					"CanGrow":true,
+					"RTF":"{\\rtf1\\ansi\\ansicpg936\\deff0\\deflang1033\\deflangfe2052{\\fonttbl{\\f0\\froman\\fprq2\\fcharset0 Times New Roman;}{\\f1\\fnil\\fprq2\\fcharset134 \\'cb\\'ce\\'cc\\'e5;}{\\f2\\fswiss\\fprq2\\fcharset134 System;}}\r\n{\\colortbl ;\\red255\\green0\\blue0;}\r\n{\\*\\generator Msftedit 5.41.15.1515;}\\viewkind4\\uc1\\trowd\\trgaph108\\trleft-108\\trbrdrl\\brdrs\\brdrw10 \\trbrdrt\\brdrs\\brdrw10 \\trbrdrr\\brdrs\\brdrw10 \\trbrdrb\\brdrs\\brdrw10 \\trpaddl108\\trpaddr108\\trpaddfl3\\trpaddfr3\r\n\\clbrdrl\\brdrw10\\brdrs\\clbrdrt\\brdrw10\\brdrs\\clbrdrr\\brdrw10\\brdrs\\clbrdrb\\brdrw10\\brdrs \\cellx2160\\clbrdrl\\brdrw10\\brdrs\\clbrdrt\\brdrw10\\brdrs\\clbrdrr\\brdrw10\\brdrs\\clbrdrb\\brdrw10\\brdrs \\cellx8414\\pard\\intbl\\nowidctlpar\\qj\\lang2052\\kerning2\\f1\\fs21\\'d7\\'f3\\'b1\\'df\\'be\\'b2\\'cc\\'ac\\'ce\\'c4\\'d7\\'d6\\lang1033\\f0\\cell [#a#]\\cell\\row\\trowd\\trgaph108\\trleft-108\\trbrdrl\\brdrs\\brdrw10 \\trbrdrt\\brdrs\\brdrw10 \\trbrdrr\\brdrs\\brdrw10 \\trbrdrb\\brdrs\\brdrw10 \\trpaddl108\\trpaddr108\\trpaddfl3\\trpaddfr3\r\n\\clbrdrl\\brdrw10\\brdrs\\clbrdrt\\brdrw10\\brdrs\\clbrdrr\\brdrw10\\brdrs\\clbrdrb\\brdrw10\\brdrs \\cellx2160\\clbrdrl\\brdrw10\\brdrs\\clbrdrt\\brdrw10\\brdrs\\clbrdrr\\brdrw10\\brdrs\\clbrdrb\\brdrw10\\brdrs \\cellx8414\\pard\\intbl\\nowidctlpar\\qj\\lang2052\\f1\\'d3\\'d2\\'b1\\'df\\'b6\\'af\\'cc\\'ac\\'ce\\'c4\\'d7\\'d6\\'bf\\'c9\\'d2\\'d4\\'b8\\'f9\\'be\\'dd\\'c4\\'da\\'c8\\'dd\\'b6\\'e0\\'c9\\'d9\\'d7\\'d4\\'b6\\'af\\'c9\\'ec\\'d5\\'b9\\'b8\\'df\\'b6\\'c8\\lang1033\\f0\\cell [#b#]\\cell\\row\\trowd\\trgaph108\\trleft-108\\trbrdrl\\brdrs\\brdrw10 \\trbrdrt\\brdrs\\brdrw10 \\trbrdrr\\brdrs\\brdrw10 \\trbrdrb\\brdrs\\brdrw10 \\trpaddl108\\trpaddr108\\trpaddfl3\\trpaddfr3\r\n\\clbrdrl\\brdrw10\\brdrs\\clbrdrt\\brdrw10\\brdrs\\clbrdrr\\brdrw10\\brdrs\\clbrdrb\\brdrw10\\brdrs \\cellx8414\\pard\\intbl\\nowidctlpar\\qj\\cf1\\lang2052\\f1\\'cb\\'b5\\'c3\\'f7\\'a3\\'ba\\'b4\\'cb\\'b1\\'ed\\'b8\\'f1\\'d4\\'da\\lang1033\\f0 Word\\lang2052\\f1\\'d6\\'d0\\'b1\\'e0\\'bc\\'ad\\'a3\\'ac\\'c8\\'bb\\'ba\\'f3\\'b8\\'b4\\'d6\\'c6\\'b5\\'bd\\lang1033\\f0 RTF\\lang2052\\f1\\'ce\\'c4\\'b1\\'be\\'bf\\'f2\\'b5\\'c4\\lang1033\\f0 RTF\\lang2052\\f1\\'ce\\'c4\\'b1\\'be\\'ca\\'f4\\'d0\\'d4\\'c9\\'cf\\'a1\\'a3\\'d4\\'da\\'b1\\'ed\\'b8\\'f1\\'d0\\'e8\\'d2\\'aa\\'b5\\'c4\\'ce\\'bb\\'d6\\'c3\\'b4\\'a6\\'bf\\'c9\\'d2\\'d4\\'b2\\'e5\\'c8\\'eb\\'d0\\'e8\\'d2\\'aa\\'b5\\'c4\\'b6\\'af\\'cc\\'ac\\'ca\\'fd\\'be\\'dd\\'d3\\'f2\\'a1\\'a3\\lang1033\\f0\\cell\\row\\pard\\cf0\\lang2052\\kerning0\\b\\f2\\fs24\\par\r\n}\r\n"
+				}
+			]
+		}
+	]
+}

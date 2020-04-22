@@ -1,0 +1,40 @@
+﻿<report>
+<NewDataSet>
+  <Table>
+    <ProductID>2</ProductID>
+    <ProductName>牛奶</ProductName>
+    <UnitPrice>15.2000</UnitPrice>
+    <Quantity>20</Quantity>
+    <Amount>304.0000</Amount>
+  </Table>
+  <Table>
+    <ProductID>16</ProductID>
+    <ProductName>饼干</ProductName>
+    <UnitPrice>13.9000</UnitPrice>
+    <Quantity>35</Quantity>
+    <Amount>486.5000</Amount>
+  </Table>
+  <Table>
+    <ProductID>36</ProductID>
+    <ProductName>鱿鱼</ProductName>
+    <UnitPrice>15.2000</UnitPrice>
+    <Quantity>25</Quantity>
+    <Amount>380.0000</Amount>
+  </Table>
+  <Table>
+    <ProductID>59</ProductID>
+    <ProductName>苏澳奶酪</ProductName>
+    <UnitPrice>44.0000</UnitPrice>
+    <Quantity>30</Quantity>
+    <Amount>1320.0000</Amount>
+  </Table>
+</NewDataSet>
+<_grparam>
+<OrderID>10255</OrderID>
+<CustomerId>RICSU</CustomerId>
+<CompanyName>永大企业</CompanyName>
+<Address>港务口街 29 号</Address>
+<OrderDate>1996-07-12 00:00:00</OrderDate>
+<Remark>余小姐(089) 7034214</Remark>
+</_grparam>
+</report>

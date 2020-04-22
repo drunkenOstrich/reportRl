@@ -1,0 +1,678 @@
+﻿<NewDataSet>
+  <Table>
+    <CustomerID>BLONP</CustomerID>
+    <CompanyName>国皓</CompanyName>
+    <ContactName>黄雅玲</ContactName>
+    <ContactTitle>市场经理</ContactTitle>
+    <Address>广发北路 10 号</Address>
+    <City>大连</City>
+    <Region>东北</Region>
+    <PostalCode>565479</PostalCode>
+    <Country>中国</Country>
+    <Phone>(0671) 88601531</Phone>
+    <Fax>(0671) 88601532</Fax>
+  </Table>
+  <Table>
+    <CustomerID>CACTU</CustomerID>
+    <CompanyName>威航货运有限公司</CompanyName>
+    <ContactName>刘先生</ContactName>
+    <ContactTitle>销售代理</ContactTitle>
+    <Address>经七纬二路 13 号</Address>
+    <City>大连</City>
+    <Region>东北</Region>
+    <PostalCode>120412</PostalCode>
+    <Country>中国</Country>
+    <Phone>(061) 11355555</Phone>
+    <Fax>(061) 11354892</Fax>
+  </Table>
+  <Table>
+    <CustomerID>CENTC</CustomerID>
+    <CompanyName>三捷实业</CompanyName>
+    <ContactName>王先生</ContactName>
+    <ContactTitle>市场经理</ContactTitle>
+    <Address>英雄山路 84 号</Address>
+    <City>大连</City>
+    <Region>东北</Region>
+    <PostalCode>130083</PostalCode>
+    <Country>中国</Country>
+    <Phone>(061) 15553392</Phone>
+    <Fax>(061) 15557293</Fax>
+  </Table>
+  <Table>
+    <CustomerID>HUNGC</CustomerID>
+    <CompanyName>五金机械</CompanyName>
+    <ContactName>苏先生</ContactName>
+    <ContactTitle>销售代表</ContactTitle>
+    <Address>德昌路甲 29 号</Address>
+    <City>大连</City>
+    <Region>东北</Region>
+    <PostalCode>564576</PostalCode>
+    <Country>中国</Country>
+    <Phone>(053) 5556874</Phone>
+    <Fax>(053) 5552376</Fax>
+  </Table>
+  <Table>
+    <CustomerID>MEREP</CustomerID>
+    <CompanyName>华科</CompanyName>
+    <ContactName>吴小姐</ContactName>
+    <ContactTitle>市场助理</ContactTitle>
+    <Address>和光北路 952 号</Address>
+    <City>大连</City>
+    <Region>东北</Region>
+    <PostalCode>280235</PostalCode>
+    <Country>中国</Country>
+    <Phone>(0514) 5558054</Phone>
+    <Fax>(0514) 5558055</Fax>
+  </Table>
+  <Table>
+    <CustomerID>GREAL</CustomerID>
+    <CompanyName>仪和贸易</CompanyName>
+    <ContactName>王先生</ContactName>
+    <ContactTitle>市场经理</ContactTitle>
+    <Address>经三纬四路 18 号</Address>
+    <City>北京</City>
+    <Region>华北</Region>
+    <PostalCode>120475</PostalCode>
+    <Country>中国</Country>
+    <Phone>(010) 65557555</Phone>
+  </Table>
+  <Table>
+    <CustomerID>FRANK</CustomerID>
+    <CompanyName>友恒信托</CompanyName>
+    <ContactName>余小姐</ContactName>
+    <ContactTitle>市场经理</ContactTitle>
+    <Address>经二路 9 号</Address>
+    <City>秦皇岛</City>
+    <Region>华北</Region>
+    <PostalCode>500798</PostalCode>
+    <Country>中国</Country>
+    <Phone>(089) 3877310</Phone>
+    <Fax>(089) 3877451</Fax>
+  </Table>
+  <Table>
+    <CustomerID>FOLIG</CustomerID>
+    <CompanyName>嘉业</CompanyName>
+    <ContactName>刘先生</ContactName>
+    <ContactTitle>助理销售代理</ContactTitle>
+    <Address>经三纬二路 8 号</Address>
+    <City>石家庄</City>
+    <Region>华北</Region>
+    <PostalCode>576906</PostalCode>
+    <Country>中国</Country>
+    <Phone>(0321) 20161016</Phone>
+    <Fax>(0321) 20161017</Fax>
+  </Table>
+  <Table>
+    <CustomerID>ANTON</CustomerID>
+    <CompanyName>坦森行贸易</CompanyName>
+    <ContactName>王炫皓</ContactName>
+    <ContactTitle>物主</ContactTitle>
+    <Address>黄台北路 780 号</Address>
+    <City>石家庄</City>
+    <Region>华北</Region>
+    <PostalCode>985060</PostalCode>
+    <Country>中国</Country>
+    <Phone>(0321) 5553932</Phone>
+  </Table>
+  <Table>
+    <CustomerID>NORTS</CustomerID>
+    <CompanyName>富同企业</CompanyName>
+    <ContactName>王先生</ContactName>
+    <ContactTitle>销售员</ContactTitle>
+    <Address>广西路 24 号</Address>
+    <City>石家庄</City>
+    <Region>华北</Region>
+    <PostalCode>780008</PostalCode>
+    <Country>中国</Country>
+    <Phone>(031) 5557733</Phone>
+    <Fax>(031) 555-2530</Fax>
+  </Table>
+  <Table>
+    <CustomerID>MORGK</CustomerID>
+    <CompanyName>仲堂企业</CompanyName>
+    <ContactName>徐文彬</ContactName>
+    <ContactTitle>市场助理</ContactTitle>
+    <Address>创业街 57 号</Address>
+    <City>天津</City>
+    <Region>华北</Region>
+    <PostalCode>440007</PostalCode>
+    <Country>中国</Country>
+    <Phone>(030) 34202376</Phone>
+  </Table>
+  <Table>
+    <CustomerID>LILAS</CustomerID>
+    <CompanyName>富泰人寿</CompanyName>
+    <ContactName>陈先生</ContactName>
+    <ContactTitle>结算经理</ContactTitle>
+    <Address>光伦东路 381 号</Address>
+    <City>天津</City>
+    <Region>华北</Region>
+    <PostalCode>995085</PostalCode>
+    <Country>中国</Country>
+    <Phone>(030) 33116954</Phone>
+    <Fax>(030) 33117256</Fax>
+  </Table>
+  <Table>
+    <CustomerID>LONEP</CustomerID>
+    <CompanyName>正太实业</CompanyName>
+    <ContactName>林慧音</ContactName>
+    <ContactTitle>销售经理</ContactTitle>
+    <Address>花园西街 28 号</Address>
+    <City>天津</City>
+    <Region>华北</Region>
+    <PostalCode>440875</PostalCode>
+    <Country>中国</Country>
+    <Phone>(030) 25559573</Phone>
+    <Fax>(030) 25559646</Fax>
+  </Table>
+  <Table>
+    <CustomerID>HUNGO</CustomerID>
+    <CompanyName>师大贸易</CompanyName>
+    <ContactName>苏先生</ContactName>
+    <ContactTitle>销售员</ContactTitle>
+    <Address>黄岗北路 73 号</Address>
+    <City>天津</City>
+    <Region>华北</Region>
+    <PostalCode>683045</PostalCode>
+    <Country>中国</Country>
+    <Phone>(030) 29672542</Phone>
+    <Fax>(030) 29673333</Fax>
+  </Table>
+  <Table>
+    <CustomerID>LAMAI</CustomerID>
+    <CompanyName>池春建设</CompanyName>
+    <ContactName>王先生</ContactName>
+    <ContactTitle>销售经理</ContactTitle>
+    <Address>青年南街 291 号</Address>
+    <City>天津</City>
+    <Region>华北</Region>
+    <PostalCode>502564</PostalCode>
+    <Country>中国</Country>
+    <Phone>(030) 61776110</Phone>
+    <Fax>(030) 61776111</Fax>
+  </Table>
+  <Table>
+    <CustomerID>LAUGB</CustomerID>
+    <CompanyName>和福建设</CompanyName>
+    <ContactName>刘先生</ContactName>
+    <ContactTitle>市场助理</ContactTitle>
+    <Address>创业西路 238 号</Address>
+    <City>天津</City>
+    <Region>华北</Region>
+    <PostalCode>055654</PostalCode>
+    <Country>中国</Country>
+    <Phone>(030) 15553392</Phone>
+    <Fax>(030) 15557293</Fax>
+  </Table>
+  <Table>
+    <CustomerID>ALFKI</CustomerID>
+    <CompanyName>三川实业有限公司</CompanyName>
+    <ContactName>刘小姐</ContactName>
+    <ContactTitle>销售代表</ContactTitle>
+    <Address>大崇明路 50 号</Address>
+    <City>天津</City>
+    <Region>华北</Region>
+    <PostalCode>343567</PostalCode>
+    <Country>中国</Country>
+    <Phone>(030) 30074321</Phone>
+    <Fax>90460/02</Fax>
+  </Table>
+  <Table>
+    <CustomerID>ANATR</CustomerID>
+    <CompanyName>东南实业</CompanyName>
+    <ContactName>王先生</ContactName>
+    <ContactTitle>物主</ContactTitle>
+    <Address>承德西路 80 号</Address>
+    <City>天津</City>
+    <Region>华北</Region>
+    <PostalCode>234575</PostalCode>
+    <Country>中国</Country>
+    <Phone>(030) 35554729</Phone>
+    <Fax>(030) 3555/3744</Fax>
+  </Table>
+  <Table>
+    <CustomerID>CHOPS</CustomerID>
+    <CompanyName>浩天旅行社</CompanyName>
+    <ContactName>方先生</ContactName>
+    <ContactTitle>物主</ContactTitle>
+    <Address>白广路 314 号</Address>
+    <City>天津</City>
+    <Region>华北</Region>
+    <PostalCode>234254</PostalCode>
+    <Country>中国</Country>
+    <Phone>(030) 30076545</Phone>
+  </Table>
+  <Table>
+    <CustomerID>COMMI</CustomerID>
+    <CompanyName>同恒</CompanyName>
+    <ContactName>刘先生</ContactName>
+    <ContactTitle>销售员</ContactTitle>
+    <Address>七一路 37 号</Address>
+    <City>天津</City>
+    <Region>华北</Region>
+    <PostalCode>453466</PostalCode>
+    <Country>中国</Country>
+    <Phone>(030) 35557647</Phone>
+  </Table>
+  <Table>
+    <CustomerID>BLAUS</CustomerID>
+    <CompanyName>森通</CompanyName>
+    <ContactName>王先生</ContactName>
+    <ContactTitle>销售代表</ContactTitle>
+    <Address>常保阁东 80 号</Address>
+    <City>天津</City>
+    <Region>华北</Region>
+    <PostalCode>787045</PostalCode>
+    <Country>中国</Country>
+    <Phone>(030) 30058460</Phone>
+    <Fax>(030)  33008924</Fax>
+  </Table>
+  <Table>
+    <CustomerID>EASTC</CustomerID>
+    <CompanyName>中通</CompanyName>
+    <ContactName>林小姐</ContactName>
+    <ContactTitle>销售代理</ContactTitle>
+    <Address>光复北路 895 号</Address>
+    <City>天津</City>
+    <Region>华北</Region>
+    <PostalCode>809784</PostalCode>
+    <Country>中国</Country>
+    <Phone>(030) 35550297</Phone>
+    <Fax>(030) 35553373</Fax>
+  </Table>
+  <Table>
+    <CustomerID>FISSA</CustomerID>
+    <CompanyName>嘉元实业</CompanyName>
+    <ContactName>刘小姐</ContactName>
+    <ContactTitle>结算经理</ContactTitle>
+    <Address>东湖大街 28 号</Address>
+    <City>天津</City>
+    <Region>华北</Region>
+    <PostalCode>458965</PostalCode>
+    <Country>中国</Country>
+    <Phone>(091) 25559444</Phone>
+    <Fax>(091) 25555593</Fax>
+  </Table>
+  <Table>
+    <CustomerID>GROSR</CustomerID>
+    <CompanyName>光远商贸</CompanyName>
+    <ContactName>陈先生</ContactName>
+    <ContactTitle>物主</ContactTitle>
+    <Address>成川东街 951 号</Address>
+    <City>天津</City>
+    <Region>华北</Region>
+    <PostalCode>122096</PostalCode>
+    <Country>中国</Country>
+    <Phone>(030) 32832951</Phone>
+    <Fax>(030) 32833397</Fax>
+  </Table>
+  <Table>
+    <CustomerID>GODOS</CustomerID>
+    <CompanyName>建资</CompanyName>
+    <ContactName>陈先生</ContactName>
+    <ContactTitle>销售经理</ContactTitle>
+    <Address>广惠东路 38 号</Address>
+    <City>张家口</City>
+    <Region>华北</Region>
+    <PostalCode>242353</PostalCode>
+    <Country>中国</Country>
+    <Phone>(0922) 5558282</Phone>
+  </Table>
+  <Table>
+    <CustomerID>FRANS</CustomerID>
+    <CompanyName>文成</CompanyName>
+    <ContactName>唐小姐</ContactName>
+    <ContactTitle>销售代表</ContactTitle>
+    <Address>临江街 32 号</Address>
+    <City>常州</City>
+    <Region>华东</Region>
+    <PostalCode>820097</PostalCode>
+    <Country>中国</Country>
+    <Phone>(056) 34988260</Phone>
+    <Fax>(056) 34988261</Fax>
+  </Table>
+  <Table>
+    <CustomerID>DUMON</CustomerID>
+    <CompanyName>迈策船舶</CompanyName>
+    <ContactName>王俊元</ContactName>
+    <ContactTitle>物主</ContactTitle>
+    <Address>沉香街 329 号</Address>
+    <City>常州</City>
+    <Region>华东</Region>
+    <PostalCode>565474</PostalCode>
+    <Country>中国</Country>
+    <Phone>(056) 40678888</Phone>
+    <Fax>(056) 40678989</Fax>
+  </Table>
+  <Table>
+    <CustomerID>HANAR</CustomerID>
+    <CompanyName>实翼</CompanyName>
+    <ContactName>谢小姐</ContactName>
+    <ContactTitle>结算经理</ContactTitle>
+    <Address>永惠西街 392 号</Address>
+    <City>南昌</City>
+    <Region>华东</Region>
+    <PostalCode>674674</PostalCode>
+    <Country>中国</Country>
+    <Phone>(0211) 5550091</Phone>
+    <Fax>(0211) 5558765</Fax>
+  </Table>
+  <Table>
+    <CustomerID>FURIB</CustomerID>
+    <CompanyName>康浦</CompanyName>
+    <ContactName>王先生</ContactName>
+    <ContactTitle>销售经理</ContactTitle>
+    <Address>授业路 361 号</Address>
+    <City>南京</City>
+    <Region>华东</Region>
+    <PostalCode>964532</PostalCode>
+    <Country>中国</Country>
+    <Phone>(087) 43542534</Phone>
+    <Fax>(087) 43542535</Fax>
+  </Table>
+  <Table>
+    <CustomerID>FOLKO</CustomerID>
+    <CompanyName>五洲信托</CompanyName>
+    <ContactName>苏先生</ContactName>
+    <ContactTitle>物主</ContactTitle>
+    <Address>沿江北路 942 号</Address>
+    <City>南京</City>
+    <Region>华东</Region>
+    <PostalCode>876060</PostalCode>
+    <Country>中国</Country>
+    <Phone>(087) 69534671</Phone>
+  </Table>
+  <Table>
+    <CustomerID>FRANR</CustomerID>
+    <CompanyName>国银贸易</CompanyName>
+    <ContactName>余小姐</ContactName>
+    <ContactTitle>市场经理</ContactTitle>
+    <Address>辅城街 42 号</Address>
+    <City>南京</City>
+    <Region>华东</Region>
+    <PostalCode>546590</PostalCode>
+    <Country>中国</Country>
+    <Phone>(087) 40322121</Phone>
+    <Fax>(087) 40322120</Fax>
+  </Table>
+  <Table>
+    <CustomerID>BERGS</CustomerID>
+    <CompanyName>通恒机械</CompanyName>
+    <ContactName>黄小姐</ContactName>
+    <ContactTitle>采购员</ContactTitle>
+    <Address>东园西甲 30 号</Address>
+    <City>南京</City>
+    <Region>华东</Region>
+    <PostalCode>798089</PostalCode>
+    <Country>中国</Country>
+    <Phone>(0921) 9123465</Phone>
+    <Fax>(0921) 55123467</Fax>
+  </Table>
+  <Table>
+    <CustomerID>LEHMS</CustomerID>
+    <CompanyName>幸义房屋</CompanyName>
+    <ContactName>刘先生</ContactName>
+    <ContactTitle>销售代表</ContactTitle>
+    <Address>七一路 89 号</Address>
+    <City>南京</City>
+    <Region>华东</Region>
+    <PostalCode>167556</PostalCode>
+    <Country>中国</Country>
+    <Phone>(069) 20245984</Phone>
+    <Fax>(069) 20245874</Fax>
+  </Table>
+  <Table>
+    <CustomerID>MAISD</CustomerID>
+    <CompanyName>悦海</CompanyName>
+    <ContactName>陈玉美</ContactName>
+    <ContactTitle>销售代理</ContactTitle>
+    <Address>八一路 384 号</Address>
+    <City>青岛</City>
+    <Region>华东</Region>
+    <PostalCode>054356</PostalCode>
+    <Country>中国</Country>
+    <Phone>(0217) 2012467</Phone>
+    <Fax>(0217) 2012468</Fax>
+  </Table>
+  <Table>
+    <CustomerID>GOURL</CustomerID>
+    <CompanyName>业兴</CompanyName>
+    <ContactName>李柏麟</ContactName>
+    <ContactTitle>销售员</ContactTitle>
+    <Address>淮河路 348 号</Address>
+    <City>上海</City>
+    <Region>华东</Region>
+    <PostalCode>241008</PostalCode>
+    <Country>中国</Country>
+    <Phone>(021) 85559482</Phone>
+  </Table>
+  <Table>
+    <CustomerID>DRACD</CustomerID>
+    <CompanyName>世邦</CompanyName>
+    <ContactName>黎先生</ContactName>
+    <ContactTitle>采购员</ContactTitle>
+    <Address>光明东路 395 号</Address>
+    <City>海口</City>
+    <Region>华南</Region>
+    <PostalCode>454748</PostalCode>
+    <Country>中国</Country>
+    <Phone>(0241) 10391231</Phone>
+    <Fax>(0241) 10594282</Fax>
+  </Table>
+  <Table>
+    <CustomerID>LINOD</CustomerID>
+    <CompanyName>保信人寿</CompanyName>
+    <ContactName>方先生</ContactName>
+    <ContactTitle>物主</ContactTitle>
+    <Address>创业北路 32 号</Address>
+    <City>海口</City>
+    <Region>华南</Region>
+    <PostalCode>301256</PostalCode>
+    <Country>中国</Country>
+    <Phone>(0899) 3345612</Phone>
+    <Fax>(0899) 3349393</Fax>
+  </Table>
+  <Table>
+    <CustomerID>MAGAA</CustomerID>
+    <CompanyName>阳林</CompanyName>
+    <ContactName>刘先生</ContactName>
+    <ContactTitle>市场经理</ContactTitle>
+    <Address>城东大街 47 号</Address>
+    <City>深圳</City>
+    <Region>华南</Region>
+    <PostalCode>801056</PostalCode>
+    <Country>中国</Country>
+    <Phone>(0571) 36402300</Phone>
+    <Fax>(0571) 36402311</Fax>
+  </Table>
+  <Table>
+    <CustomerID>LAZYK</CustomerID>
+    <CompanyName>春永建设</CompanyName>
+    <ContactName>王先生</ContactName>
+    <ContactTitle>市场经理</ContactTitle>
+    <Address>劳动辅路 395 号</Address>
+    <City>深圳</City>
+    <Region>华南</Region>
+    <PostalCode>013056</PostalCode>
+    <Country>中国</Country>
+    <Phone>(0571) 35557969</Phone>
+    <Fax>(0571) 35556221</Fax>
+  </Table>
+  <Table>
+    <CustomerID>BSBEV</CustomerID>
+    <CompanyName>光明杂志</CompanyName>
+    <ContactName>谢丽秋</ContactName>
+    <ContactTitle>销售代表</ContactTitle>
+    <Address>黄石路 50 号</Address>
+    <City>深圳</City>
+    <Region>华南</Region>
+    <PostalCode>760908</PostalCode>
+    <Country>中国</Country>
+    <Phone>(0571) 45551212</Phone>
+  </Table>
+  <Table>
+    <CustomerID>AROUT</CustomerID>
+    <CompanyName>国顶有限公司</CompanyName>
+    <ContactName>方先生</ContactName>
+    <ContactTitle>销售代表</ContactTitle>
+    <Address>天府东街 30 号</Address>
+    <City>深圳</City>
+    <Region>华南</Region>
+    <PostalCode>890879</PostalCode>
+    <Country>中国</Country>
+    <Phone>(0571) 45557788</Phone>
+    <Fax>(0571) 45556750</Fax>
+  </Table>
+  <Table>
+    <CustomerID>GALED</CustomerID>
+    <CompanyName>东旗</CompanyName>
+    <ContactName>王先生</ContactName>
+    <ContactTitle>市场经理</ContactTitle>
+    <Address>尊石路 238 号</Address>
+    <City>深圳</City>
+    <Region>华南</Region>
+    <PostalCode>411012</PostalCode>
+    <Country>中国</Country>
+    <Phone>(0571) 20334560</Phone>
+    <Fax>(0571) 20334561</Fax>
+  </Table>
+  <Table>
+    <CustomerID>HILAA</CustomerID>
+    <CompanyName>远东开发</CompanyName>
+    <ContactName>王先生</ContactName>
+    <ContactTitle>销售代表</ContactTitle>
+    <Address>崇盛路 82 号</Address>
+    <City>深圳</City>
+    <Region>华南</Region>
+    <PostalCode>498045</PostalCode>
+    <Country>中国</Country>
+    <Phone>(0571) 75551340</Phone>
+    <Fax>(0571) 75551948</Fax>
+  </Table>
+  <Table>
+    <CustomerID>ERNSH</CustomerID>
+    <CompanyName>正人资源</CompanyName>
+    <ContactName>谢小姐</ContactName>
+    <ContactTitle>销售经理</ContactTitle>
+    <Address>临江东街 62 号</Address>
+    <City>深圳</City>
+    <Region>华南</Region>
+    <PostalCode>906853</PostalCode>
+    <Country>中国</Country>
+    <Phone>(0571) 76753425</Phone>
+    <Fax>(0571) 76753426</Fax>
+  </Table>
+  <Table>
+    <CustomerID>FAMIA</CustomerID>
+    <CompanyName>红阳事业</CompanyName>
+    <ContactName>王先生</ContactName>
+    <ContactTitle>市场助理</ContactTitle>
+    <Address>外滩西路 238 号</Address>
+    <City>深圳</City>
+    <Region>华南</Region>
+    <PostalCode>687759</PostalCode>
+    <Country>中国</Country>
+    <Phone>(0571) 75559857</Phone>
+  </Table>
+  <Table>
+    <CustomerID>CONSH</CustomerID>
+    <CompanyName>万海</CompanyName>
+    <ContactName>林小姐</ContactName>
+    <ContactTitle>销售代表</ContactTitle>
+    <Address>劳动路 23 号</Address>
+    <City>厦门</City>
+    <Region>华南</Region>
+    <PostalCode>353467</PostalCode>
+    <Country>中国</Country>
+    <Phone>(071) 45552282</Phone>
+    <Fax>(071) 45559199</Fax>
+  </Table>
+  <Table>
+    <CustomerID>LETSS</CustomerID>
+    <CompanyName>兴中保险</CompanyName>
+    <ContactName>方先生</ContactName>
+    <ContactTitle>物主</ContactTitle>
+    <Address>豪威西路 238 号</Address>
+    <City>厦门</City>
+    <Region>华南</Region>
+    <PostalCode>750165</PostalCode>
+    <Country>中国</Country>
+    <Phone>(0415) 5555938</Phone>
+  </Table>
+  <Table>
+    <CustomerID>ISLAT</CustomerID>
+    <CompanyName>鑫增贸易</CompanyName>
+    <ContactName>周先生</ContactName>
+    <ContactTitle>市场经理</ContactTitle>
+    <Address>东府大街 31 号</Address>
+    <City>西安</City>
+    <Region>西北</Region>
+    <PostalCode>502255</PostalCode>
+    <Country>中国</Country>
+    <Phone>(091) 65558888</Phone>
+  </Table>
+  <Table>
+    <CustomerID>BOLID</CustomerID>
+    <CompanyName>迈多贸易</CompanyName>
+    <ContactName>陈先生</ContactName>
+    <ContactTitle>物主</ContactTitle>
+    <Address>临翠大街 80 号</Address>
+    <City>西安</City>
+    <Region>西北</Region>
+    <PostalCode>907987</PostalCode>
+    <Country>中国</Country>
+    <Phone>(091) 85552282</Phone>
+    <Fax>(091) 85559199</Fax>
+  </Table>
+  <Table>
+    <CustomerID>BONAP</CustomerID>
+    <CompanyName>祥通</CompanyName>
+    <ContactName>刘先生</ContactName>
+    <ContactTitle>物主</ContactTitle>
+    <Address>花园东街 90 号</Address>
+    <City>重庆</City>
+    <Region>西南</Region>
+    <PostalCode>567690</PostalCode>
+    <Country>中国</Country>
+    <Phone>(078) 91244540</Phone>
+    <Fax>(078) 91244541</Fax>
+  </Table>
+  <Table>
+    <CustomerID>BOTTM</CustomerID>
+    <CompanyName>广通</CompanyName>
+    <ContactName>王先生</ContactName>
+    <ContactTitle>结算经理</ContactTitle>
+    <Address>平谷嘉石大街 38 号</Address>
+    <City>重庆</City>
+    <Region>西南</Region>
+    <PostalCode>808059</PostalCode>
+    <Country>中国</Country>
+    <Phone>(078) 95554729</Phone>
+    <Fax>(078) 95553745</Fax>
+  </Table>
+  <Table>
+    <CustomerID>KOENE</CustomerID>
+    <CompanyName>永业房屋</CompanyName>
+    <ContactName>谢丽秋</ContactName>
+    <ContactTitle>销售员</ContactTitle>
+    <Address>东园大路 78 号</Address>
+    <City>重庆</City>
+    <Region>西南</Region>
+    <PostalCode>101057</PostalCode>
+    <Country>中国</Country>
+    <Phone>(025) 55509876</Phone>
+  </Table>
+  <Table>
+    <CustomerID>LACOR</CustomerID>
+    <CompanyName>霸力建设</CompanyName>
+    <ContactName>谢小姐</ContactName>
+    <ContactTitle>销售代表</ContactTitle>
+    <Address>东岗大路 9 号</Address>
+    <City>重庆</City>
+    <Region>西南</Region>
+    <PostalCode>048766</PostalCode>
+    <Country>中国</Country>
+    <Phone>(025) 30598410</Phone>
+    <Fax>(025) 30598511</Fax>
+  </Table>
+</NewDataSet>

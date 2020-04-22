@@ -1,0 +1,12 @@
+﻿<report>
+<_grparam>
+<OrderID>10252</OrderID>
+<CustomerId>SUPRD</CustomerId>
+<CompanyName>福星制衣厂股份有限公司</CompanyName>
+<OrderDate>1996-7-9 0:00:00</OrderDate>
+<ProductName>桂花糕</ProductName>
+<UnitPrice>64.8</UnitPrice>
+<Quantity>40</Quantity>
+<Amount>2592</Amount>
+</_grparam>
+</report>

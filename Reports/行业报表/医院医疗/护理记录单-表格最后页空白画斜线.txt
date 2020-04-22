@@ -1,0 +1,46 @@
+﻿<xml>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-4-28 11:10:51</RecordTime><PrintRecordTime>2015-04-28 11:10</PrintRecordTime><OutName>胃</OutName><OutAmount>100</OutAmount><Creator>孙小培</Creator><mc>
+	                          孙小培</mc></row>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-4-28 11:13:50</RecordTime><PrintRecordTime>11:13</PrintRecordTime><Skin>出血</Skin><PipeName1>右颈</PipeName1><Creator>孙小培</Creator><mc>
+	                          孙小培</mc></row>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-4-28 11:15:01</RecordTime><PrintRecordTime>11:15</PrintRecordTime><PipeName1>导</PipeName1><PipeColor1>黄</PipeColor1><PipeResult1>通畅</PipeResult1><Creator>孙小培</Creator><mc>
+	                          孙小培</mc></row>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-4-28 11:15:36</RecordTime><PrintRecordTime>11:15</PrintRecordTime><PipeName1>1234</PipeName1><Creator>孙小培</Creator><mc>
+	                          孙小培</mc></row>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-5-6 16:01:02</RecordTime><PrintRecordTime>2015-05-06 16:01</PrintRecordTime><Aware>清</Aware><Creator>孙小培</Creator><mc>
+	                          孙小培</mc></row>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-5-18 15:37:41</RecordTime><PrintRecordTime>2015-05-18 15:37</PrintRecordTime><PipeName1>左腹腔引流管</PipeName1><PipeColor1>暗红色</PipeColor1><PipeResult1>通畅</PipeResult1><Creator>孙小培</Creator><mc>
+	                          孙小培</mc></row>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-5-26 17:27:40</RecordTime><PrintRecordTime>2015-05-26 17:27</PrintRecordTime><Creator>孙小培</Creator><mc>患者（单侧）鼻出血,患者左上肢,感觉迟钝,肢体末梢皮肤温暖,肌力0级,摆放良肢位,给予相关健康教育。
+	                          孙小培</mc><measuretext>患者（单侧）鼻出血,患者左上肢,感觉迟钝,肢体末梢皮肤温暖,肌力0级,摆放良肢位,给予相关健康教育。</measuretext></row>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-5-26 17:32:25</RecordTime><PrintRecordTime>17:32</PrintRecordTime><Creator>孙小培</Creator><mc>患者左上肢,感觉迟钝,肢体末梢皮肤温暖,肌力0级,患者面色青紫,手足保暖,背部叩击,给予相关健康教育。
+	                          孙小培</mc><measuretext>患者左上肢,感觉迟钝,肢体末梢皮肤温暖,肌力0级,患者面色青紫,手足保暖,背部叩击,给予相关健康教育。</measuretext></row>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-5-27 15:07:52</RecordTime><PrintRecordTime>2015-05-27 15:07</PrintRecordTime><Aware>清醒</Aware><Temperature>11</Temperature><Pulse>23</Pulse><SPO>2</SPO><Creator>孙小培</Creator><mc>
+	                          孙小培</mc></row>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-6-1 17:18:02</RecordTime><PrintRecordTime>2015-06-01 17:18</PrintRecordTime><Creator>孙小培</Creator><mc>输液滴速减慢,选择合适蝶翼针型号,给予相关健康教育。
+	                          孙小培</mc><measuretext>输液滴速减慢,选择合适蝶翼针型号,给予相关健康教育。</measuretext></row>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-6-15 9:44:27</RecordTime><PrintRecordTime>09:44</PrintRecordTime><OutName>尿
+胃液</OutName><OutAmount>1
+2</OutAmount><PipeName1>胃管/2</PipeName1><PipeColor1>鲜红色</PipeColor1><PipeResult1>通畅</PipeResult1><Creator>孙小培</Creator><mc>
+	                          孙小培</mc><PipeName1OutAmount>2</PipeName1OutAmount></row>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-6-15 9:45:56</RecordTime><PrintRecordTime>09:45</PrintRecordTime><PipeName1>ABC</PipeName1><Creator>孙小培</Creator><mc>
+	                          孙小培</mc></row>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-6-18 15:59:14</RecordTime><PrintRecordTime>2015-06-18 15:59</PrintRecordTime><PipeName1>ABC</PipeName1><PipeName2>123</PipeName2><Creator>孙小培</Creator><mc>
+	                          孙小培</mc></row>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-6-24 16:03:18</RecordTime><PrintRecordTime>2015-06-24 16:03</PrintRecordTime><OutName>胃液
+尿液</OutName><OutAmount>10
+20</OutAmount><PipeName1>胃管/1</PipeName1><PipeColor1>鲜红色</PipeColor1><PipeResult1>通畅</PipeResult1><PipeName2>导尿管/2</PipeName2><PipeColor2>暗红色</PipeColor2><PipeResult2>不通畅</PipeResult2><Creator>陈微微</Creator><mc>
+	                          陈微微</mc><PipeName1OutAmount>10</PipeName1OutAmount><PipeName2OutAmount>20</PipeName2OutAmount></row>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-6-25 16:01:58</RecordTime><PrintRecordTime>2015-06-25 16:01</PrintRecordTime><Aware>清醒</Aware><BloodPressure>12</BloodPressure><InAmount>22</InAmount><OutName>尿</OutName><PipeName1>鼻饲管</PipeName1><PipeColor1>暗红色</PipeColor1><PipeName3>鼻空肠管</PipeName3><Heart>10</Heart><measuretext>患者听力下降,听力丧失。</measuretext></row>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-6-25 16:07:31</RecordTime><PrintRecordTime>16:07</PrintRecordTime><OutName>尿液</OutName><OutAmount>2</OutAmount><PipeName1>胃管</PipeName1><PipeName2>鼻饲管/1</PipeName2><PipeName3>导尿管/2</PipeName3><PipeColor3>暗红色</PipeColor3><Creator>孙小培</Creator><mc>
+	                          孙小培</mc><PipeName3OutAmount>2</PipeName3OutAmount></row>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-6-30 16:58:54</RecordTime><PrintRecordTime>2015-06-30 16:58</PrintRecordTime><InName>葡萄糖氯化钠注射液(双管双塞）</InName><InAmount>500</InAmount><Creator>孙小培</Creator><mc>
+	                          孙小培</mc></row>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-7-1 7:00:00</RecordTime><PrintRecordTime>2015-07-01 06:59</PrintRecordTime><InName>15小时总结，总入量</InName><InAmount>500</InAmount></row>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-7-1 11:10:46</RecordTime><PrintRecordTime>11:10</PrintRecordTime><InName>葡萄糖氯化钠注射液(双管双塞）</InName><InAmount>500</InAmount><Creator>俞乐</Creator><mc>
+	                          俞乐</mc></row>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-7-1 13:04:03</RecordTime><PrintRecordTime>13:04</PrintRecordTime><InName>葡萄糖氯化钠注射液(双管双塞）</InName><InAmount>500</InAmount><Creator>孙小培</Creator><mc>
+	                          孙小培</mc></row>
+<row><AdmitDiag>前列腺增生</AdmitDiag><RecordTime>2015-7-1 14:06:42</RecordTime><PrintRecordTime>14:06</PrintRecordTime><Aware>清醒</Aware><Creator>俞乐</Creator><mc>
+	                          俞乐</mc></row>
+</xml>

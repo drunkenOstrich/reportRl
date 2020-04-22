@@ -1,0 +1,198 @@
+﻿<NewDataSet>
+  <Table>
+    <OrderID>10255</OrderID>
+    <CustomerId>RICSU</CustomerId>
+    <CompanyName>永大企业</CompanyName>
+    <Address>港务口街 29 号</Address>
+    <OrderDate>1996-07-12T00:00:00+08:00</OrderDate>
+    <Remark>余小姐(089) 7034214</Remark>
+    <OrderID1>10255</OrderID1>
+    <ProductID>2</ProductID>
+    <ProductName>牛奶</ProductName>
+    <UnitPrice>15.2000</UnitPrice>
+    <Quantity>20</Quantity>
+    <Amount>304.0000</Amount>
+  </Table>
+  <Table>
+    <OrderID>10255</OrderID>
+    <CustomerId>RICSU</CustomerId>
+    <CompanyName>永大企业</CompanyName>
+    <Address>港务口街 29 号</Address>
+    <OrderDate>1996-07-12T00:00:00+08:00</OrderDate>
+    <Remark>余小姐(089) 7034214</Remark>
+    <OrderID1>10255</OrderID1>
+    <ProductID>16</ProductID>
+    <ProductName>饼干</ProductName>
+    <UnitPrice>13.9000</UnitPrice>
+    <Quantity>35</Quantity>
+    <Amount>486.5000</Amount>
+  </Table>
+  <Table>
+    <OrderID>10255</OrderID>
+    <CustomerId>RICSU</CustomerId>
+    <CompanyName>永大企业</CompanyName>
+    <Address>港务口街 29 号</Address>
+    <OrderDate>1996-07-12T00:00:00+08:00</OrderDate>
+    <Remark>余小姐(089) 7034214</Remark>
+    <OrderID1>10255</OrderID1>
+    <ProductID>36</ProductID>
+    <ProductName>鱿鱼</ProductName>
+    <UnitPrice>15.2000</UnitPrice>
+    <Quantity>25</Quantity>
+    <Amount>380.0000</Amount>
+  </Table>
+  <Table>
+    <OrderID>10255</OrderID>
+    <CustomerId>RICSU</CustomerId>
+    <CompanyName>永大企业</CompanyName>
+    <Address>港务口街 29 号</Address>
+    <OrderDate>1996-07-12T00:00:00+08:00</OrderDate>
+    <Remark>余小姐(089) 7034214</Remark>
+    <OrderID1>10255</OrderID1>
+    <ProductID>59</ProductID>
+    <ProductName>苏澳奶酪</ProductName>
+    <UnitPrice>44.0000</UnitPrice>
+    <Quantity>30</Quantity>
+    <Amount>1320.0000</Amount>
+  </Table>
+  <Table>
+    <OrderID>10256</OrderID>
+    <CustomerId>WELLI</CustomerId>
+    <CompanyName>凯诚国际顾问公司</CompanyName>
+    <Address>威刚街 481 号</Address>
+    <OrderDate>1996-07-15T00:00:00+08:00</OrderDate>
+    <Remark>刘先生(0571) 35558122</Remark>
+    <OrderID1>10256</OrderID1>
+    <ProductID>53</ProductID>
+    <ProductName>盐水鸭</ProductName>
+    <UnitPrice>26.2000</UnitPrice>
+    <Quantity>15</Quantity>
+    <Amount>393.0000</Amount>
+  </Table>
+  <Table>
+    <OrderID>10256</OrderID>
+    <CustomerId>WELLI</CustomerId>
+    <CompanyName>凯诚国际顾问公司</CompanyName>
+    <Address>威刚街 481 号</Address>
+    <OrderDate>1996-07-15T00:00:00+08:00</OrderDate>
+    <Remark>刘先生(0571) 35558122</Remark>
+    <OrderID1>10256</OrderID1>
+    <ProductID>77</ProductID>
+    <ProductName>辣椒粉</ProductName>
+    <UnitPrice>10.4000</UnitPrice>
+    <Quantity>12</Quantity>
+    <Amount>124.8000</Amount>
+  </Table>
+  <Table>
+    <OrderID>10257</OrderID>
+    <CustomerId>HILAA</CustomerId>
+    <CompanyName>远东开发</CompanyName>
+    <Address>崇盛路 82 号</Address>
+    <OrderDate>1996-07-16T00:00:00+08:00</OrderDate>
+    <Remark>王先生(0571) 75551340</Remark>
+    <OrderID1>10257</OrderID1>
+    <ProductID>27</ProductID>
+    <ProductName>牛肉干</ProductName>
+    <UnitPrice>35.1000</UnitPrice>
+    <Quantity>25</Quantity>
+    <Amount>877.5000</Amount>
+  </Table>
+  <Table>
+    <OrderID>10257</OrderID>
+    <CustomerId>HILAA</CustomerId>
+    <CompanyName>远东开发</CompanyName>
+    <Address>崇盛路 82 号</Address>
+    <OrderDate>1996-07-16T00:00:00+08:00</OrderDate>
+    <Remark>王先生(0571) 75551340</Remark>
+    <OrderID1>10257</OrderID1>
+    <ProductID>39</ProductID>
+    <ProductName>运动饮料</ProductName>
+    <UnitPrice>14.4000</UnitPrice>
+    <Quantity>6</Quantity>
+    <Amount>86.4000</Amount>
+  </Table>
+  <Table>
+    <OrderID>10257</OrderID>
+    <CustomerId>HILAA</CustomerId>
+    <CompanyName>远东开发</CompanyName>
+    <Address>崇盛路 82 号</Address>
+    <OrderDate>1996-07-16T00:00:00+08:00</OrderDate>
+    <Remark>王先生(0571) 75551340</Remark>
+    <OrderID1>10257</OrderID1>
+    <ProductID>77</ProductID>
+    <ProductName>辣椒粉</ProductName>
+    <UnitPrice>10.4000</UnitPrice>
+    <Quantity>15</Quantity>
+    <Amount>156.0000</Amount>
+  </Table>
+  <Table>
+    <OrderID>10258</OrderID>
+    <CustomerId>ERNSH</CustomerId>
+    <CompanyName>正人资源</CompanyName>
+    <Address>临江东街 62 号</Address>
+    <OrderDate>1996-07-17T00:00:00+08:00</OrderDate>
+    <Remark>谢小姐(0571) 76753425</Remark>
+    <OrderID1>10258</OrderID1>
+    <ProductID>2</ProductID>
+    <ProductName>牛奶</ProductName>
+    <UnitPrice>15.2000</UnitPrice>
+    <Quantity>50</Quantity>
+    <Amount>760.0000</Amount>
+  </Table>
+  <Table>
+    <OrderID>10258</OrderID>
+    <CustomerId>ERNSH</CustomerId>
+    <CompanyName>正人资源</CompanyName>
+    <Address>临江东街 62 号</Address>
+    <OrderDate>1996-07-17T00:00:00+08:00</OrderDate>
+    <Remark>谢小姐(0571) 76753425</Remark>
+    <OrderID1>10258</OrderID1>
+    <ProductID>5</ProductID>
+    <ProductName>麻油</ProductName>
+    <UnitPrice>17.0000</UnitPrice>
+    <Quantity>65</Quantity>
+    <Amount>1105.0000</Amount>
+  </Table>
+  <Table>
+    <OrderID>10258</OrderID>
+    <CustomerId>ERNSH</CustomerId>
+    <CompanyName>正人资源</CompanyName>
+    <Address>临江东街 62 号</Address>
+    <OrderDate>1996-07-17T00:00:00+08:00</OrderDate>
+    <Remark>谢小姐(0571) 76753425</Remark>
+    <OrderID1>10258</OrderID1>
+    <ProductID>32</ProductID>
+    <ProductName>白奶酪</ProductName>
+    <UnitPrice>25.6000</UnitPrice>
+    <Quantity>6</Quantity>
+    <Amount>153.6000</Amount>
+  </Table>
+  <Table>
+    <OrderID>10259</OrderID>
+    <CustomerId>CENTC</CustomerId>
+    <CompanyName>三捷实业</CompanyName>
+    <Address>英雄山路 84 号</Address>
+    <OrderDate>1996-07-18T00:00:00+08:00</OrderDate>
+    <Remark>王先生(061) 15553392</Remark>
+    <OrderID1>10259</OrderID1>
+    <ProductID>21</ProductID>
+    <ProductName>花生</ProductName>
+    <UnitPrice>8.0000</UnitPrice>
+    <Quantity>10</Quantity>
+    <Amount>80.0000</Amount>
+  </Table>
+  <Table>
+    <OrderID>10259</OrderID>
+    <CustomerId>CENTC</CustomerId>
+    <CompanyName>三捷实业</CompanyName>
+    <Address>英雄山路 84 号</Address>
+    <OrderDate>1996-07-18T00:00:00+08:00</OrderDate>
+    <Remark>王先生(061) 15553392</Remark>
+    <OrderID1>10259</OrderID1>
+    <ProductID>37</ProductID>
+    <ProductName>干贝</ProductName>
+    <UnitPrice>20.8000</UnitPrice>
+    <Quantity>1</Quantity>
+    <Amount>20.8000</Amount>
+  </Table>
+</NewDataSet>

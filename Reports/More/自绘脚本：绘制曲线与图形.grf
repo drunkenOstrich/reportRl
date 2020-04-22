@@ -1,0 +1,43 @@
+﻿{
+	"Version":"6.6.6.0",
+	"Title":"7-3c.脚本.部件框自绘(饼图与弧线)",
+	"Author":"锐浪报表软件",
+	"Description":"演示部件框的自定义绘制功能\r\n\r\n将部件框的“自绘”属性设为“是”，部件框将成为自绘部件框，其绘制输出将用用户自己通过调用 IGRGraphics 接口的方法来实现。绘制实现有两种方式；其一是在部件框的“绘制脚本”中写报表脚本实现；其二是响应报表的“ControlCustomDraw”事件写程序代码实现。\r\n\r\n调用部件框的“DrawDefault”方法可以将其本身绘出。\r\n",
+	"Font":{
+		"Name":"宋体",
+		"Size":105000,
+		"Weight":400,
+		"Charset":134
+	},
+	"ConnectionString":"Provider=Microsoft.Jet.OLEDB.4.0;\r\nUser ID=Admin;\r\nData Source=..\\Data\\Northwind.mdb",
+	"Printer":{
+		"Oriention":"Landscape"
+	},
+	"ReportHeader":[
+		{
+			"Name":"ReportHeader1",
+			"Height":13.8113,
+			"Control":[
+				{
+					"Type":"StaticBox",
+					"Name":"StaticBox5",
+					"BackColor":"FFFFCC",
+					"BackStyle":"Normal",
+					"Left":0.211667,
+					"Top":0.211667,
+					"Width":24.1829,
+					"Height":13.3879,
+					"CustomDraw":true,
+					"CustomDrawScript":"function GetColorValue(r,g,b)\r\n{\r\n   return Report.Utility.ColorFromRGB(r, g , b);\r\n}\r\n\r\nfunction PolyCurveLine(g, pts)\r\n{\r\n    var ptc = pts.length,\r\n        i,\r\n        xPriorControlPoint,\r\n        yPriorControlPoint;\r\n\r\n    //绘制曲线前，一定要调用 BeginPath 开始一个路径的定义\r\n    g.BeginPath();\r\n\r\n    g.MoveTo(pts [0].x, pts [0].y); //将起点设置为当前点\r\n\r\n    //求起点的控制点的参数特殊\r\n    g.CalcCurveControlPoints(pts [0].x, pts [0].y, pts [0].x, pts [0].y, pts [1].x, pts [1].y);\r\n    xPriorControlPoint = Graphics.CCPOuterX;\r\n    yPriorControlPoint = Graphics.CCPOuterY;\r\n\r\n    //起点与终点不在循环内\r\n    for (i=1; i<ptc-1; i++)  {\r\n        g.CalcCurveControlPoints(pts [i-1].x, pts [i-1].y, pts [i].x, pts [i].y, pts [i+1].x, pts [i+1].y);\r\n        g.CurveTo(xPriorControlPoint, yPriorControlPoint , Graphics.CCPInnerX, Graphics.CCPInnerY, pts [i].x, pts [i].y);\r\n\r\n        xPriorControlPoint = Graphics.CCPOuterX;\r\n        yPriorControlPoint = Graphics.CCPOuterY;\r\n    }\r\n\r\n    //求终点的控制点的参数特殊\r\n    g.CalcCurveControlPoints(pts [i-1].x, pts [i-1].y, pts [i].x, pts [i].y, pts [i].x, pts [i].y);\r\n    g.CurveTo(xPriorControlPoint, yPriorControlPoint , Graphics.CCPInnerX, Graphics.CCPInnerY, pts [i].x, pts [i].y);\r\n\r\n    //将定义的曲线路径绘制出来\r\n    g.StrokePath();\r\n}\r\n\r\nvar Graphics = Report.Graphics,\r\n\r\n    x = Graphics.Left + 8,\r\n    y = Graphics.Top + 8,\r\n    w = Graphics.Width - 16,\r\n    h = Graphics.Height - 16,\r\n\r\n    pts = [ //曲线经过的点，要绘制图形的点\r\n        {x: x, y: y+h},  \r\n        {x: x+w/4, y: y+h/2}, \r\n        {x: x+w/2, y: y+h*3/4},  \r\n        {x: x+w*3/4, y: y+h/2},  \r\n        {x: x+w, y: y}\r\n    ],\r\n    ptc = pts.length,\r\n    i;\r\n\r\n//<<绘制曲线\r\nGraphics.SelectPen(2, GetColorValue(20, 192, 60), 0/*grpsSolid*/); //设定绘出线型\r\n\r\nPolyCurveLine(Graphics, pts);\r\n\r\nGraphics.RestorePen(); //恢复绘出线型设定，SelectPen调用之后，必须对应调用RestorePen\r\n//>>绘制曲线\r\n\r\n//<<绘制数据点图标\r\nGraphics.SelectPen(2, GetColorValue(100, 30, 80), 0/*grpsSolid*/); //设定绘出线型\r\nGraphics.SelectFillColor( GetColorValue(0, 255, 255) );  //设定填充色\r\n\r\nfor (i=0; i<ptc; i++)  {\r\n    Graphics.DrawPointMarker(i+5, pts [i].x, pts [i].y, 16);\r\n}\r\n\r\nGraphics.RestoreFillColor(); //恢复填充色设定，SelectFillColor调用之后，必须对应调用RestoreFillColor\r\nGraphics.RestorePen(); //恢复绘出线型设定，SelectPen调用之后，必须对应调用RestorePen\r\n//>>绘制数据点图标\r\n",
+					"Font":{
+						"Name":"宋体",
+						"Size":157500,
+						"Bold":true,
+						"Charset":134
+					},
+					"TextAlign":"MiddleCenter"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+﻿<xml>
+<row><OrderID>10248</OrderID><CustomerID>VINET</CustomerID><CompanyName>山泰企业</CompanyName><Freight>32.38</Freight><OrderDateText>19960704</OrderDateText></row>
+<row><OrderID>10249</OrderID><CustomerID>TOMSP</CustomerID><CompanyName>东帝望</CompanyName><Freight>11.61</Freight><OrderDateText>19960705</OrderDateText></row>
+<row><OrderID>10250</OrderID><CustomerID>HANAR</CustomerID><CompanyName>实翼</CompanyName><Freight>65.83</Freight><OrderDateText>19960708</OrderDateText></row>
+<row><OrderID>10251</OrderID><CustomerID>VICTE</CustomerID><CompanyName>千固</CompanyName><Freight>41.34</Freight><OrderDateText>19960708</OrderDateText></row>
+<row><OrderID>10252</OrderID><CustomerID>SUPRD</CustomerID><CompanyName>福星制衣厂股份有限公司</CompanyName><Freight>51.3</Freight><OrderDateText>19960709</OrderDateText></row>
+<row><OrderID>10253</OrderID><CustomerID>HANAR</CustomerID><CompanyName>实翼</CompanyName><Freight>58.17</Freight><OrderDateText>199607010</OrderDateText></row>
+<row><OrderID>10254</OrderID><CustomerID>CHOPS</CustomerID><CompanyName>浩天旅行社</CompanyName><Freight>22.98</Freight><OrderDateText>19960711</OrderDateText></row>
+<row><OrderID>10255</OrderID><CustomerID>RICSU</CustomerID><CompanyName>永大企业</CompanyName><Freight>148.33</Freight><OrderDateText>19960712</OrderDateText></row>
+<row><OrderID>10256</OrderID><CustomerID>WELLI</CustomerID><CompanyName>凯诚国际顾问公司</CompanyName><Freight>13.97</Freight><OrderDateText>19960715</OrderDateText></row>
+<row><OrderID>10257</OrderID><CustomerID>HILAA</CustomerID><CompanyName>远东开发</CompanyName><Freight>81.91</Freight><OrderDateText>19960716</OrderDateText></row>
+<row><OrderID>10258</OrderID><CustomerID>ERNSH</CustomerID><CompanyName>正人资源</CompanyName><Freight>140.51</Freight><OrderDateText>19960717</OrderDateText></row>
+<row><OrderID>10259</OrderID><CustomerID>CENTC</CustomerID><CompanyName>三捷实业</CompanyName><Freight>3.25</Freight><OrderDateText>19960718</OrderDateText></row>
+<row><OrderID>10260</OrderID><CustomerID>OTTIK</CustomerID><CompanyName>一诠精密工业</CompanyName><Freight>55.09</Freight><OrderDateText>19960719</OrderDateText></row>
+<row><OrderID>10261</OrderID><CustomerID>QUEDE</CustomerID><CompanyName>兰格英语</CompanyName><Freight>3.05</Freight><OrderDateText>19960719</OrderDateText></row>
+</xml>
