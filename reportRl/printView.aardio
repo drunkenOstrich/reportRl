@@ -8,22 +8,7 @@ namespace reportRl;
 
 class printView{
 	ctor( winform ){
-		var print,err = null;
-		if(_STUDIO_INVOKED) ..reportRl.regFlag = true;
-		try{
-			if(..reportRl.regFlag){
-				print = winform.createEmbed("grpro.GRPrintViewer.6");
-			}else{
-				print = winform.createEmbed("gregn.GRPrintViewer.6");//免注册发布
-			}
-		}
-		catch(e){
-			err = e;
-		}
-		winform.modifyStyle(, 0x2000000/*_WS_CLIPCHILDREN*/ );//防闪烁消失
-		if(winform.parent){
-			winform.parent.modifyStyle(, 0x2000000/*_WS_CLIPCHILDREN*/ );//防闪烁消失
-		}
+		var print,err = winform.createEmbed("gregn.GRPrintViewer.6") or winform.createEmbed("grpro.GRPrintViewer.6");
 		if(!print){
 			return null,"报表打印显示组件加载失败！"++'\r\n'++err; 
 		}
@@ -109,6 +94,11 @@ class printView{
 					return this.StatusChange();
 				}
 			}
+		}
+		
+		winform.modifyStyle(, 0x2000000/*_WS_CLIPCHILDREN*/ );//防闪烁消失
+		if(winform.parent){
+			winform.parent.modifyStyle(, 0x2000000/*_WS_CLIPCHILDREN*/ );//防闪烁消失
 		}
 	};
 	

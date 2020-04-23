@@ -5,27 +5,36 @@ reportRl是一个aardio的锐浪报表组件库。[gitee仓库](https://gitee.co
 
 目录说明
 -------------------------------------------------------------------------------------------------
-reportRl目录说明  
-├─aardio　　　　　　　**aardio例程**文件夹  
-│  ├─02.Normal　　　 Grid++Report 各种格式报表演示(看这个就对了)  
-├─Data　　　　　　　　Grid++Report 自带的数据目录  
+仓库目录说明  
 ├─img  
-├─lib  
-│  └─reportRl　　　　**reportRl库源码**，已制作成[远程扩展库](https://github.com/drunkenOstrich/reportRl/releases/latest)  
-└─Reports　　　　　　Grid++Report 自带的报表模板目录  
+├─reportRl　　　　　　**reportRl库源码**，已制作成[远程扩展库](https://github.com/drunkenOstrich/reportRl/releases/latest)  
+└─示例代码  
+　├─aardio　　　　　　示例源码，需保持路径测试。  
+　│  ├─01.Tutorial  
+　│  │  ├─DisplayReport  
+　│  │  └─PrintReport  
+　│  ├─02.Normal　　　**各种样式的报表演示**  
+　│  ├─03.Export  
+　│  ├─04.PrintAdapt  
+　│  ├─05.ManualFillRecord  
+　│  └─06.Picture  
+　├─Data　　　　　　示例源码用到的数据文件夹  
+　└─Reports  　　　　示例源码用到的报表模板文件夹  
+
+
 
 食用方法
 -------------------------------------------------------------------------------------------------
 1，在电脑上安装[aardio桌面快速开发编程工具](http://www.aardio.com)；  
 2，下载reportRl仓库；  
-3，(此步骤可省略) 把reportRl\lib\目录里的reportRl文件夹(**reportRl库源码**) 拷贝(复制-粘贴)到aardio开发工具**根目录**的/lib/ 目录下；  
+3，(此步骤可省略) 把**reportRl库源码**文件夹拷贝(复制-粘贴)到aardio开发工具**根目录**的/lib/ 目录下；  
 
-4，打开`reportRl仓库\aardio\02.Normal\`文件夹观看示例工程。  
+4，打开 `示例源码\aardio\02.Normal\` 文件夹观看示例工程。  
 
 
 组件对象的智能提示并不全，有用到的才会去写一下，还是要以锐浪报表的帮助文档为主要参考依据。  
 
-锐浪的帮助文档在`reportRl\lib\reportRl\.dll`里  
+锐浪的帮助文档在 `\reportRl\.dll` 里  
 
 （注：该例程用于练习在aardio中调用Com组件，例程中有什么不对的地方欢迎大家指正交流。）  
 

@@ -4,10 +4,6 @@ import fsys;
 import fsys.res;
 import reportRl;
 
-if(reportRl.regFlag){
-	return ; 
-}
-
 var projectPath = ide.getProjectPath();
 var projectFileName = io.splitpath(projectPath).name;
 var manifestPath = ..fsys.joinpath(ide.getProjectDir(),".build\" + projectFileName + ".Manifest.xml" );

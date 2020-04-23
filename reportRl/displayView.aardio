@@ -8,22 +8,7 @@ namespace reportRl;
 
 class displayView{
 	ctor( winform ){
-		var display,err = null;
-		if(_STUDIO_INVOKED) ..reportRl.regFlag = true;
-		try{
-			if(..reportRl.regFlag){
-				display = winform.createEmbed("grpro.GRDisplayViewer.6");
-			}else{
-				display = winform.createEmbed("gregn.GRDisplayViewer.6");//免注册发布
-			}
-		}
-		catch(e){
-			err = e;
-		}
-		winform.modifyStyle(, 0x2000000/*_WS_CLIPCHILDREN*/ );//防闪烁消失
-		if(winform.parent){
-			winform.parent.modifyStyle(, 0x2000000/*_WS_CLIPCHILDREN*/ );//防闪烁消失
-		}
+		var display,err = winform.createEmbed("gregn.GRDisplayViewer.6") or winform.createEmbed("grpro.GRDisplayViewer.6");
 		if(!display){
 			return null,"报表查询组件加载失败！"++'\r\n'++err; 
 		}
@@ -164,6 +149,11 @@ class displayView{
 					return this.TitleCellDblClick(pSender);
 				}
 			}
+		}
+		
+		winform.modifyStyle(, 0x2000000/*_WS_CLIPCHILDREN*/ );//防闪烁消失
+		if(winform.parent){
+			winform.parent.modifyStyle(, 0x2000000/*_WS_CLIPCHILDREN*/ );//防闪烁消失
 		}
 	};
 	

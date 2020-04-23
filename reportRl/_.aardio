@@ -3,23 +3,13 @@
 /*  2017-04 daheian daheian@qq.com  */
 /************************************/
 
+import fsys;
 import com;
 import com.activeX;
 
 class reportRl{
 	ctor(){
-		var rpt,err = null;
-		if(_STUDIO_INVOKED) self.regFlag = true;
-		try{
-			if(self.regFlag){
-				rpt = ..com.CreateObject("grpro.GridppReport.6");
-			}else {
-				rpt = ..com.CreateObject("gregn.GridppReport.6");//免注册调用
-			}
-		}
-		catch(e){
-			err = e;
-		}
+		var rpt,err = ..com.TryCreateObject("gregn.GridppReport.6") or ..com.TryCreateObject("grpro.GridppReport.6");
 		if(!rpt){
 			return null,"报表组件加载失败！"++'\r\n'++tostring(err); 
 		}
@@ -166,28 +156,22 @@ class reportRl{
 
 namespace reportRl{
     
-    regFlag = false;//默认false，发布的EXE程序实现免注册调用。
-    				//设置为true，发布的exe程序会调用regsvr32函数注册锐浪报表组件。
-    				
     if(_STUDIO_INVOKED){//IDE
     	try{
 			..com.CreateObject("grpro.GridppReport.6")
 		}
 		catch(e){
-			..com.activeX.appData("aardio\reportRl\gregn6.dll",$"~\lib\reportRl\.dll\gregn6.dll")
-			..com.activeX.appData("aardio\reportRl\grdes6.dll",$"~\lib\reportRl\.dll\grdes6.dll") 
+			..com.activeX.regsvr32("~\lib\reportRl\.dll\gregn6.dll")
+			..com.activeX.regsvr32("~\lib\reportRl\.dll\grdes6.dll") 
 		}	
     }else {//Publish
-		if(regFlag){//发布版也想注册使用 设置regFlag的值为true
-			..com.activeX.appData("aardio\reportRl\gregn6.dll",$"~\lib\reportRl\.dll\gregn6.dll")
-			..com.activeX.appData("aardio\reportRl\grdes6.dll",$"~\lib\reportRl\.dll\grdes6.dll") 
-		}else {
-			if(!..io.exist("\gregn6.dll")){
-				..string.save("\gregn6.dll",$"~\lib\reportRl\.dll\gregn6.dll");
-			}
-			if(!..io.exist("\grdes6.dll")){
-				..string.save("\grdes6.dll",$"~\lib\reportRl\.dll\grdes6.dll");
-			}
+		if(!..io.exist("\gregn6.dll")){
+			..string.save("\gregn6.dll",$"~\lib\reportRl\.dll\gregn6.dll");
+			..fsys.attrib("\gregn6.dll",,2/*_FILE_ATTRIBUTE_HIDDEN*/)
+		}
+		if(!..io.exist("\grdes6.dll")){
+			..string.save("\grdes6.dll",$"~\lib\reportRl\.dll\grdes6.dll");
+			..fsys.attrib("\grdes6.dll",,2/*_FILE_ATTRIBUTE_HIDDEN*/)
 		}
     }
 }

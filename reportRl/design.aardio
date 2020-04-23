@@ -12,23 +12,7 @@ namespace reportRl;
 class design{
 
 	ctor( winform ){
-		var designer,err = null;
-		if(_STUDIO_INVOKED) ..reportRl.regFlag = true;
-		try{
-			if(..reportRl.regFlag){
-				designer = winform.createEmbed("grpro.GRDesigner.6");
-			}else {
-				designer = winform.createEmbed("grdes.GRDesigner.6");
-			}
-		}
-		catch(e){
-			err = e;
-		}
-
-		winform.modifyStyle(, 0x2000000/*_WS_CLIPCHILDREN*/ );//防闪烁消失
-		if(winform.parent){
-			winform.parent.modifyStyle(, 0x2000000/*_WS_CLIPCHILDREN*/ );//防闪烁消失
-		}
+		var designer,err = winform.createEmbed("grdes.GRDesigner.6") or winform.createEmbed("grpro.GRDesigner.6");
 		if(!designer){
 			return null,"报表设计器组件加载失败！"++'\r\n'++tostring(err); 
 		}
@@ -84,6 +68,11 @@ class design{
 					return this.RequestData(Report);
 				}
 			}
+		}
+		
+		winform.modifyStyle(, 0x2000000/*_WS_CLIPCHILDREN*/ );//防闪烁消失
+		if(winform.parent){
+			winform.parent.modifyStyle(, 0x2000000/*_WS_CLIPCHILDREN*/ );//防闪烁消失
 		}
 	};
 
