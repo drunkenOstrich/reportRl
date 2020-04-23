@@ -1,6 +1,6 @@
 reportRl是个啥
 -------------------------------------------------------------------------------------------------
-reportRl是一个aardio的库。  
+reportRl是一个aardio的库。[gitee仓库](https://gitee.com/daheian/reportRl) [github仓库](https://github.com/drunkenOstrich/reportRl) 同步更新。  
 包含了reportRl库源码，以及使用此库调用Grid++Report锐浪报表组件的例程。  
 
 目录说明
@@ -31,7 +31,7 @@ reportRl目录说明
 
 远程引用扩展库
 -------------------------------------------------------------------------------------------------
-在aardio引用远程扩展库reportRl的示例：  
+在aardio引用[远程扩展库reportRl](https://github.com/drunkenOstrich/reportRl/releases/tag/v1.0)的示例：  
 ```
 _IMPORTURL["reportRl"] = "https://github.com/drunkenOstrich/reportRl/releases/download/v1.0/reportRl.tar.lzma"
 import reportRl
@@ -51,4 +51,4 @@ aardio编程交流QQ群：70517368(非aardio官方群)
 
 截个图
 -------------------------------------------------------------------------------------------------
-![Normal](/img/img.png)
+![Normal](https://gitee.com/daheian/reportRl/raw/master/img/img.png)
