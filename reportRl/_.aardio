@@ -11,8 +11,9 @@ class reportRl{
 	ctor(){
 		var rpt,err = ..com.TryCreateObject("gregn.GridppReport.6") or ..com.TryCreateObject("grpro.GridppReport.6");
 		if(!rpt){
-			..com.activeX.regsvr32("\gregn6.dll")
-			..com.activeX.regsvr32("\grdes6.dll") 
+			..com.activeX.regsvr32("\grdes6.dll");
+			collectgarbage("collect");
+			..com.activeX.regsvr32("\gregn6.dll");
 		}
 		rpt,err = ..com.TryCreateObject("gregn.GridppReport.6") or ..com.TryCreateObject("grpro.GridppReport.6");
 		if(!rpt){
@@ -166,8 +167,9 @@ namespace reportRl{
 			..com.CreateObject("grpro.GridppReport.6")
 		}
 		catch(e){
-			..com.activeX.regsvr32("~\lib\reportRl\.dll\gregn6.dll")
-			..com.activeX.regsvr32("~\lib\reportRl\.dll\grdes6.dll") 
+			..com.activeX.regsvr32("~\lib\reportRl\.dll\grdes6.dll");
+			collectgarbage("collect");
+			..com.activeX.regsvr32("~\lib\reportRl\.dll\gregn6.dll");
 		}	
     }else {//Publish
 		if(!..io.exist("\gregn6.dll")){

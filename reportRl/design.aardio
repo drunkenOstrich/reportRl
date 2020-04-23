@@ -14,7 +14,7 @@ class design{
 	ctor( winform ){
 		var designer,err = null;
 		try{
-			designer = wwinform.createEmbed("grdes.GRDesigner.6");
+			designer = winform.createEmbed("grdes.GRDesigner.6");
 		}
 		catch(e){
 			err = e;
