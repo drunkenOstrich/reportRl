@@ -166,16 +166,9 @@ class reportRl{
 
 namespace reportRl{
     
-    regFlag = false;//只需设置为true 发布后的程序就可以实现自动注册和调用组件
-    				 /*默认为false 需要手动修改Manifest文件实现免注册发布。		*/
-    				 /*手动修改Manifest文件实现免注册发布教程：按住CTRL点↓		*/
-    				 /*https://www.cnblogs.com/drunken-ostrich/p/12751534.html	*/
-    				 /*免注册发布的方式建议使用锐浪报表6.6.6.2之后的版本    	*/
-    				 
-    				 /*免注册发布的程序 无需管理员权限，无需注册COM组件			*/
-    				 /*建议手动修改Manifest文件 实现免注册发布，提升用户体验。  */
-    
-    
+    regFlag = false;//默认false，发布的EXE程序实现免注册调用。
+    				//设置为true，发布的exe程序会调用regsvr32函数注册锐浪报表组件。
+    				
     if(_STUDIO_INVOKED){//IDE
     	try{
 			..com.CreateObject("grpro.GridppReport.6")
@@ -185,20 +178,18 @@ namespace reportRl{
 			..com.activeX.appData("aardio\reportRl\grdes6.dll",$"~\lib\reportRl\.dll\grdes6.dll") 
 		}	
     }else {//Publish
-    
-    	if(!..io.exist("\gregn6.dll")){
-			..string.save("\gregn6.dll",$"~\lib\reportRl\.dll\gregn6.dll");
-		}
-		if(!..io.exist("\grdes6.dll")){
-			..string.save("\grdes6.dll",$"~\lib\reportRl\.dll\grdes6.dll");
-		}
-		
 		if(regFlag){//发布版也想注册使用 设置regFlag的值为true
 			..com.activeX.appData("aardio\reportRl\gregn6.dll",$"~\lib\reportRl\.dll\gregn6.dll")
 			..com.activeX.appData("aardio\reportRl\grdes6.dll",$"~\lib\reportRl\.dll\grdes6.dll") 
+		}else {
+			if(!..io.exist("\gregn6.dll")){
+				..string.save("\gregn6.dll",$"~\lib\reportRl\.dll\gregn6.dll");
+			}
+			if(!..io.exist("\grdes6.dll")){
+				..string.save("\grdes6.dll",$"~\lib\reportRl\.dll\grdes6.dll");
+			}
 		}
     }
-	
 }
 
 

@@ -2,7 +2,11 @@
 import ide;
 import fsys;
 import fsys.res;
-import console;
+import reportRl;
+
+if(reportRl.regFlag){
+	return ; 
+}
 
 var projectPath = ide.getProjectPath();
 var projectFileName = io.splitpath(projectPath).name;
