@@ -1,5 +1,5 @@
 import win.ui;
-_IMPORTURL["reportRl"] = "https://github.com/drunkenOstrich/reportRl/releases/download/v1.0/reportRl.tar.lzma"
+_IMPORTURL["reportRl"] = "https://github.com/drunkenOstrich/reportRl/releases/latest/download/reportRl.tar.lzma"
 import reportRl;
 import reportRl.path;
 import fsys.dlg;
