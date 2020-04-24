@@ -8,21 +8,7 @@ namespace reportRl;
 
 class displayView{
 	ctor( winform ){
-		var display,err = null;
-		try{
-			display = winform.createEmbed("gregn.GRDisplayViewer.6");
-		}
-		catch(e){
-			err = e;
-		}
-		if(!display){
-			try{
-				display = winform.createEmbed("grpro.GRDisplayViewer.6");
-			}
-			catch(e){
-				err = e;
-			}
-		}	
+		var display,err = winform.tryCreateEmbed("gregn.GRDisplayViewer.6") or winform.tryCreateEmbed("grpro.GRDisplayViewer.6");
 		if(!display){
 			return null,"报表查询组件加载失败！"++'\r\n'++err; 
 		}

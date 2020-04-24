@@ -2,6 +2,8 @@
 /************************************/
 /*  2017-04 daheian daheian@qq.com  */
 /************************************/
+//github仓库:https://github.com/drunkenOstrich/reportRl
+//gitee仓库：https://gitee.com/daheian/reportRl
 
 import fsys;
 import com;
@@ -11,11 +13,9 @@ class reportRl{
 	ctor(){
 		var rpt,err = ..com.TryCreateObject("gregn.GridppReport.6") or ..com.TryCreateObject("grpro.GridppReport.6");
 		if(!rpt){
-			..com.activeX.regsvr32("\grdes6.dll");
-			collectgarbage("collect");
 			..com.activeX.regsvr32("\gregn6.dll");
+			rpt,err = ..com.TryCreateObject("gregn.GridppReport.6") or ..com.TryCreateObject("grpro.GridppReport.6");
 		}
-		rpt,err = ..com.TryCreateObject("gregn.GridppReport.6") or ..com.TryCreateObject("grpro.GridppReport.6");
 		if(!rpt){
 			return null,"报表组件加载失败！"++'\r\n'++tostring(err); 
 		}
@@ -164,11 +164,10 @@ namespace reportRl{
     
     if(_STUDIO_INVOKED){//IDE
     	try{
-			..com.CreateObject("grpro.GridppReport.6")
+			..com.CreateObject("gregn.GridppReport.6")
 		}
 		catch(e){
 			..com.activeX.regsvr32("~\lib\reportRl\.dll\grdes6.dll");
-			collectgarbage("collect");
 			..com.activeX.regsvr32("~\lib\reportRl\.dll\gregn6.dll");
 		}	
     }else {//Publish

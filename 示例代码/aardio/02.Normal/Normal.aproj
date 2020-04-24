@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<project ver="10" name="Normal" libEmbed="true" icon="..." ui="win" output="Normal.exe" CompanyName="单位名称" FileDescription="附加说明......" LegalCopyright="Copyright (C) 作者 2011" ProductName="产品名称" InternalName="内部名称" FileVersion="0.0.1.33" ProductVersion="0.0.1.33" publishDir="/Publish/" dstrip="false" local="false">
+<project ver="10" name="Normal" libEmbed="true" icon="..." ui="win" output="Normal.exe" CompanyName="单位名称" FileDescription="附加说明......" LegalCopyright="Copyright (C) 作者 2011" ProductName="产品名称" InternalName="内部名称" FileVersion="0.0.1.37" ProductVersion="0.0.1.37" publishDir="/Publish/" dstrip="false" local="false">
 	<file name="main.aardio" path="main.aardio" comment="main.aardio"/>
 	<folder name="资源目录" path="res" comment="目录" embed="true" local="false">
 		<file name="designForm.aardio" path="res\designForm.aardio" comment="res\designForm.aardio"/>

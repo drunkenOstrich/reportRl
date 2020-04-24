@@ -9,21 +9,8 @@ namespace reportRl;
 class printView{
 	ctor( winform ){
 		
-		var print,err = null;
-		try{
-			print = winform.createEmbed("gregn.GRPrintViewer.6");
-		}
-		catch(e){
-			err = e;
-		}
-		if(!print){
-			try{
-				print = winform.createEmbed("grpro.GRPrintViewer.6");
-			}
-			catch(e){
-				err = e;
-			}
-		}
+		var print,err = winform.tryCreateEmbed("gregn.GRPrintViewer.6") or winform.tryCreateEmbed("grpro.GRPrintViewer.6");
+
 		if(!print){
 			return null,"报表打印显示组件加载失败！"++'\r\n'++err; 
 		}

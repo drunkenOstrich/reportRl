@@ -12,22 +12,11 @@ namespace reportRl;
 class design{
 
 	ctor( winform ){
-		var designer,err = null;
-		try{
-			designer = winform.createEmbed("grdes.GRDesigner.6");
-		}
-		catch(e){
-			err = e;
-		}
+		var designer,err = winform.tryCreateEmbed("grdes.GRDesigner.6") or winform.tryCreateEmbed("grpro.GRDesigner.6");
 		if(!designer){
-			try{
-				designer = winform.createEmbed("grpro.GRDesigner.6");
-			}
-			catch(e){
-				err = e;
-			}
-		}	
-		
+			..com.activeX.regsvr32("\grdes6.dll");
+			designer,err = winform.tryCreateEmbed("grdes.GRDesigner.6") or winform.tryCreateEmbed("grpro.GRDesigner.6");
+		}
 		if(!designer){
 			return null,"报表设计器组件加载失败！"++'\r\n'++tostring(err); 
 		}
