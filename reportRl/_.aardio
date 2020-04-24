@@ -164,7 +164,7 @@ namespace reportRl{
     
     if(_STUDIO_INVOKED){//IDE
     	try{
-			..com.CreateObject("gregn.GridppReport.6")
+			..com.CreateObject("grpro.GridppReport.6")
 		}
 		catch(e){
 			..com.activeX.regsvr32("~\lib\reportRl\.dll\grdes6.dll");
